@@ -1,0 +1,57 @@
+body{
+  background: linear-gradient(to right, #00c6ff, #f46b45);
+  height: 100vh;
+  text-align: center;
+  color: white;
+  margin: 100px auto;
+  width: 400px;
+  font-family: 'Roboto';
+}
+
+#myDiv{
+    background: rgba(255, 255, 255, 0.15); /* semi-transparent white */
+  box-shadow: 
+    0 8px 20px rgba(0, 0, 0, 0.4),   /* big, soft shadow for depth */
+    inset 0 1px 0 rgba(255, 255, 255, 0.3); /* subtle highlight inside */
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff; /* text color to contrast */
+  backdrop-filter: blur(10px); /* optional, adds frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* for Safari */
+  width: 500px;
+}
+
+#inputDisplay{
+  width: 300px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.30);
+  border: none;
+  font-size: 1.5rem;
+}
+
+#toFahrenheitRead, #toCelsiusRead{
+  font-size: 2rem;
+}
+
+#resultDisplay{
+  font-size: 2rem;
+}
+
+button{
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  background-color: #00c6ff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 
+    0 8px 20px rgba(0, 0, 0, 0.4),   /* big, soft shadow for depth */
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    transition: 0.25s;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #f46b45;
+}
+
+
