@@ -1,0 +1,20 @@
+body{
+  background-image: url(/Digital\ clock\ program/background.png);
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#display{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 100px;
+  text-shadow: 0 0 20px #00ffff;
+  font-size: 10vw;
+}
