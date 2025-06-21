@@ -1,0 +1,90 @@
+body{
+    font-family: poppins, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(0, 0%, 80%);
+}
+
+#heading{
+    text-align: center;
+    margin-top: 200px;
+}
+
+#container{
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid;
+    height: 200px;
+    border-radius: 30px;
+    border-width: 5px;
+    background-color: #fff;
+}
+
+#display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  margin-top: 30px;
+   
+}
+
+#start, #stop, #reset{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+#start:hover, #stop:hover, #reset:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+#stop{
+  background-color: #f44336; /* Red */
+}
+
+#stop:hover {
+  background-color: #d32f2f; /* Darker red */
+}
+
+#reset{
+  background-color: #008CBA; /* Blue */
+}
+
+#reset:hover {
+  background-color: #007bb5; /* Darker blue */
+}
+
+#stop, #reset{
+  margin-left: 20px;
+}
+
+#start:active {
+  background-color: #3e8e41; /* Darker green for active state */
+}
+
+#stop:active {
+  background-color: #aa1212; /* Darker red for active state */
+}
+
+#reset:active {
+  background-color: #026d9e; /* Darker blue for active state */
+}
